@@ -96,29 +96,129 @@
    .brand-banner-img>img {
        max-width: 100%;
        height: auto;
-    /*--------------------------------------------------
+       /*--------------------------------------------------
                             Quick list (section-2)
      ---------------------------------------------------*/
    }
-   .company-container{
-        display: flex;
-        align-items: center;
-        gap: 70px;
-        margin-top: 100px;
-        
-   }
-   .company-images{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+
+   .company-container {
+       display: flex;
+       align-items: center;
+       gap: 70px;
+       margin-top: 100px;
 
    }
+
+   .company-images {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-column-gap: 15px;
+       grid-row-gap: 15px;
+
+   }
+
    .company-image {
-    width: 100%;
+       width: 100%;
    }
 
    .company-image>img {
        max-width: 100%;
        height: auto;
+   }
+
+   .company-info {
+       display: flex;
+       flex-direction: column;
+       gap: 25px;
+   }
+
+   .company-title {
+       font-weight: 700;
+       font-size: 45px;
+   }
+
+   #qlist {
+       color: #727272;
+   }
+
+   #of-our {
+       color: #131313;
+   }
+
+   #feature {
+       color: #FF900E;
+   }
+
+   .brand-info>p {
+       font-weight: 400;
+       font-size: 16px;
+       color: #727272;
+   }
+
+   /*--------------------------------------------
+                            Some fact 
+    --------------------------------------------*/
+   .some {
+       margin-top: 5vw;
+   }
+
+   .some-container {
+       width: 50vh;
+   }
+
+   .some-container>h3 {
+       color: #131313;
+       font-weight: 700;
+       font-size: 35px;
+   }
+
+   .some-container>p {
+       color: #727272;
+       font-weight: 400;
+       font-size: 16px;
+   }
+
+   /*---------------------------------------
+                Company achievement 
+    ---------------------------------------*/
+   .achievements {
+       margin-top: 40px;
+
+   }
+
+   .achievement {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid #FF900E;
+       padding: 20px;
+       border-radius: 8px;
+
+   }
+   .achievement:hover {
+    border: 2px solid navy;
+    position: sticky;
+    
+}
+
+   .achievement>i {
+       font-size: 45px;
+   }
+
+   .achievement>h3 {
+       font-weight: 600;
+       font-size: 45px;
+       color: #424242;
+   }
+
+   .achievement>h4 {
+       font-weight: 600;
+       font-size: 20px;
+       color: #727272;
+   }
+
+   .all-achivements {
+       display: flex;
+       justify-content: space-evenly;
    }
