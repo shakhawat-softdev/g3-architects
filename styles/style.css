@@ -196,11 +196,12 @@
        border-radius: 8px;
 
    }
+
    .achievement:hover {
-    border: 2px solid navy;
-    position: sticky;
-    
-}
+       border: 2px solid navy;
+       position: sticky;
+
+   }
 
    .achievement>i {
        font-size: 45px;
@@ -222,3 +223,42 @@
        display: flex;
        justify-content: space-evenly;
    }
+
+   /*--------------------------------------
+                    Sponspors
+    --------------------------------------*/
+    .sponspors{
+        margin-top: 6vw;
+
+    }
+   .sponspors-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+   }
+
+   .sponspors-title {
+       font-weight: 700;
+       font-size: 35px;
+       color: #131313;
+   }
+
+   .sponspors-info {
+       font-weight: 400;
+       font-size: 16px;
+       color: #727272;
+   }
+   /*----------------------------------
+                Sponspors icon
+    ----------------------------------- */
+    .sponsporsor-icon{
+        margin-top: 4vw;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
