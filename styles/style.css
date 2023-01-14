@@ -160,6 +160,7 @@
     --------------------------------------------*/
    .some {
        margin-top: 5vw;
+       padding-left: 80px;
    }
 
    .some-container {
@@ -227,17 +228,18 @@
    /*--------------------------------------
                     Sponspors
     --------------------------------------*/
-    .sponspors{
-        margin-top: 6vw;
+   .sponspors {
+       margin-top: 6vw;
 
-    }
+   }
+
    .sponspors-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 15px;
+
    }
 
    .sponspors-title {
@@ -251,14 +253,27 @@
        font-size: 16px;
        color: #727272;
    }
+
    /*----------------------------------
                 Sponspors icon
     ----------------------------------- */
-    .sponsporsor-icon{
-        margin-top: 4vw;
-    }
-    .icons{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+   .sponsporsor-icon {
+       margin-top: 4vw;
+   }
+
+   .icons {
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+   }
+
+   /*----------------------------------------
+                        footer
+     ---------------------------------------- */
+   .footer {
+        margin-top: 6vw;
+        padding: 40px;
+       text-align: center;
+       background: #FFF4E7;
+       border-radius: 8px;
+   }
