@@ -14,12 +14,24 @@
        font-family: 'Work Sans', sans-serif;
    }
 
+   .btn {
+       color: #FFFFFF;
+       background: #FF900E;
+       border: none;
+       text-decoration: none;
+       font-weight: 600;
+       font-size: 20px;
+       padding: 20px;
+       border-radius: 10px;
+   }
+
    /*-----------------------------
              header-nav
     ------------------------------*/
-    header{
-        background: rgba(255, 144, 14, 0.1);
-    }
+   header {
+       background: rgba(255, 144, 14, 0.1);
+   }
+
    .nav-bar {
        display: flex;
        justify-content: space-around;
@@ -36,8 +48,6 @@
        font-size: 18px;
        line-height: 26px;
        color: #424242;
-
-
    }
 
    ul {
@@ -47,4 +57,43 @@
 
    li {
        list-style: none;
+   }
+   /*--------------------------------------------
+                        main
+    -------------------------------------------- */
+    main{
+        margin-top: 20vh;
+    }
+
+   /*--------------------------------------------
+                        Brand New
+    --------------------------------------------- */
+   .brand-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 30px;
+
+   }
+
+   .brand-title>h3 {
+       color: #131313;
+       font-weight: 700;
+       font-size: 64px;
+   }
+
+   .brand-info>P {
+       color: #727272;
+       font-weight: 400;
+       font-size: 16px;
+   }
+
+   .brand-banner-img {
+       width: 60%;
+   }
+
+   .brand-banner-img>img {
+    max-width: 100%;  
+    height: auto; 
+
    }
