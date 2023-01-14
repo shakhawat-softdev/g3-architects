@@ -58,15 +58,16 @@
    li {
        list-style: none;
    }
+
    /*--------------------------------------------
                         main
     -------------------------------------------- */
-    main{
-        margin-top: 20vh;
-    }
+   main {
+       margin-top: 20vh;
+   }
 
    /*--------------------------------------------
-                        Brand New
+                        Brand New 9section-1
     --------------------------------------------- */
    .brand-container {
        display: flex;
@@ -93,7 +94,31 @@
    }
 
    .brand-banner-img>img {
-    max-width: 100%;  
-    height: auto; 
+       max-width: 100%;
+       height: auto;
+    /*--------------------------------------------------
+                            Quick list (section-2)
+     ---------------------------------------------------*/
+   }
+   .company-container{
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        margin-top: 100px;
+        
+   }
+   .company-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
 
+   }
+   .company-image {
+    width: 100%;
+   }
+
+   .company-image>img {
+       max-width: 100%;
+       height: auto;
    }
