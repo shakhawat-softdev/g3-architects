@@ -59,42 +59,45 @@
    li {
        list-style: none;
    }
+
    /*--------------------------------------------
                         Brand New 9section-1
     --------------------------------------------- */
-    .brand{
-        margin-top: 20px;
-        padding-bottom: 20px;
-    }
-    .brand-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
- 
-    }
- 
-    .brand-title>h3 {
-        color: #131313;
-        font-weight: 700;
-        font-size: 54px;
-    }
- 
-    .brand-info>P {
-        color: #727272;
-        font-weight: 400;
-        font-size: 16px;
-    }
- 
-    .brand-banner-img {
-        width: 60%;
-    }
- 
-    .brand-banner-img>img {
-        max-width: 100%;
-        height: auto;
-   
-    }
+   .brand {
+       margin-top: 20px;
+       padding-bottom: 20px;
+   }
+
+   .brand-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 30px;
+
+   }
+
+   .brand-title>h3 {
+       color: #131313;
+       font-weight: 700;
+       font-size: 54px;
+   }
+
+   .brand-info>P {
+       color: #727272;
+       font-weight: 400;
+       font-size: 16px;
+   }
+
+   .brand-banner-img {
+       width: 60%;
+   }
+
+   .brand-banner-img>img {
+       max-width: 100%;
+       height: auto;
+
+   }
+
    /*--------------------------------------------
                         main
     -------------------------------------------- */
@@ -102,21 +105,25 @@
        margin-top: 20vh;
    }
 
-  
-    /*--------------------------------------------------
+
+   /*--------------------------------------------------
                             Quick list (section-2)
      ---------------------------------------------------*/
-   
+
+    .company{
+    margin-top: 100px;
+   } 
 
    .company-container {
-       display: flex;
-       align-items: center;
-       gap: 70px;
-       margin-top: 100px;
-       margin-left:15%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 100px;
+    margin-left:15%;
 
-   }
-
+}
+   
+   
    .company-images {
        display: grid;
        grid-template-columns: repeat(2, 1fr);
@@ -163,7 +170,7 @@
        color: #727272;
    }
 
-   /*----------------------------------------------
+/*----------------------------------------------
  Features you will love & enjoy 
  -----------------------------------------------*/
    .future-text-image-container {
@@ -193,7 +200,7 @@
        width: 100px;
        object-fit: cover;
        object-position: center; */
-      
+
    }
 
    .title-container>h3 {
@@ -203,20 +210,22 @@
    }
 
    .title-container>p {
-    font-size: 16px;
-    
-    color: #727272;
+       font-size: 16px;
+
+       color: #727272;
    }
 
    .company-features {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+       margin-top: 5%;
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
    }
-   .feature{
-    box-shadow: 3px 3px red, -1em 0 .4em olive;
+
+   .feature {
+       box-shadow: 3px 3px red, -1em 0 .4em olive;
    }
+
    .feature>h4 {
        font-weight: 600;
        font-size: 20px;
@@ -226,18 +235,19 @@
        font-size: 16px;
        color: #727272;
    }
-   .brand-btn2>button{
-    color: #FFFFFF;
-    background: #FF900E;
-    border: none;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 20px;
-    position: absolute;
-    margin-left: 52%;
-    margin-top: -4%;
-    }
+
+   .brand-btn2>button {
+       color: #FFFFFF;
+       background: #FF900E;
+       border: none;
+       text-decoration: none;
+       font-weight: 600;
+       font-size: 20px;
+       padding: 20px;
+       position: absolute;
+       margin-left: 52%;
+       margin-top: -4%;
+   }
 
 
 
@@ -363,3 +373,114 @@
        background: #FFF4E7;
        border-radius: 8px;
    }
+
+   /*--------------------------------------------
+    Resoinsive webpage 
+    ----------------------------------------------*/
+   @media screen and (max-width: 576px) {
+
+       .nav-bar {
+           flex-direction: column;
+       }
+
+       ul {
+           flex-direction: column;
+           gap: 10px;
+       }
+
+       .brand-title>h3 {
+           font-size: 1.6em;
+       }
+
+       .brand-info>p {
+           text-align: center;
+       }
+       .company{
+        margin-top: 0%;
+       }
+       .company-container{
+        flex-direction: column-reverse;
+        margin-left: 0%;
+        margin-top: 0px;
+       }
+       main{
+        margin-top: 0%;
+       }
+       .company-title{
+        text-align: center;
+       }
+       .company-features{
+        gap: 30px;
+        box-shadow: none;
+       }
+       .feature {
+        box-shadow: none;
+    }
+       .brand-btn{
+            text-align: center;
+       }
+       .company-images{
+        grid-template-columns: repeat(1, 1fr);
+       }
+       .future-image-container{
+        display: none;
+       }
+        .brand-btn2>button {
+       
+       position: absolute;
+       margin-left: 25%;
+       margin-top: -0.10%;
+   }
+   .future-text-image-container{
+    margin-top: 4vh;
+   }
+   .title-container{
+    text-align: center;
+    
+   }
+   
+   .title-container>h4{
+    margin: 10px;
+   }
+   .some{
+    text-align: center;
+    padding-left: 10px;
+    margin-top: 5vh;
+   }
+   
+   /* .some-container{
+    margin-top: 20pvh;
+   text-align: center;
+   } */
+   /* .some>h3{
+    text-align: center;
+   } */
+   .all-achivements{
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+   }
+   .sponspors-info{
+    text-align: center;
+    padding: 6px;
+   }
+   .icons{
+    flex-direction: column;
+    gap: 30px;
+   }
+ 
+    .brand-btn2>button {
+        display: none;
+    }
+
+
+   }
+
+
+
+
+
+   /*---------------------------------------------
+    visibility off 
+    ---------------------------------------------*/
+   
