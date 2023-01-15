@@ -12,6 +12,7 @@
     ------------------------------ */
    .body {
        font-family: 'Work Sans', sans-serif;
+       /* height: 100vh; */
    }
 
    .btn {
@@ -155,9 +156,71 @@
        color: #727272;
    }
 
+   /*----------------------------------------------
+ Features you will love & enjoy 
+ -----------------------------------------------*/
+   .future-text-image-container {
+       margin-top: 20vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* height: 70vh;
+       width: 70%; */
+       border: 5px solid black;
+   }
+
+   .future-text-container {
+       display: flex;
+       flex-direction: column;
+       /* width: 50%; */
+   }
+
+   .future-image-container {
+       /* height: 100%; */
+       /* width: 50%; */
+   }
+
+   .future-image-container>img {
+       /* height: 100%;
+       width: 100px;
+       object-fit: cover;
+       object-position: center; */
+      
+   }
+
+   .title-container>h3 {
+       font-weight: 500;
+       font-size: 45px;
+       color: #131313;
+   }
+
+   .title-container>p {
+    font-size: 16px;
+    
+    color: #727272;
+   }
+
+   .company-features {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .feature>h4 {
+       font-weight: 600;
+       font-size: 20px;
+   }
+
+   .feature>p {
+       font-size: 16px;
+       
+       color: #727272;
+   }
+
+
+
    /*--------------------------------------------
                             Some fact 
-    --------------------------------------------*/
+--------------------------------------------*/
    .some {
        margin-top: 5vw;
        padding-left: 80px;
@@ -200,7 +263,7 @@
 
    .achievement:hover {
        border: 2px solid navy;
-       position: sticky;
+       /* position: sticky; */
 
    }
 
@@ -271,8 +334,8 @@
                         footer
      ---------------------------------------- */
    .footer {
-        margin-top: 6vw;
-        padding: 40px;
+       margin-top: 6vw;
+       padding: 40px;
        text-align: center;
        background: #FFF4E7;
        border-radius: 8px;
